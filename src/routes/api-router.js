@@ -16,6 +16,6 @@ apiRouter.delete('/api/books/:id', booksController.deleteBook);
 apiRouter.get('/api/loans', loansController.index);
 apiRouter.get('/api/loans/:id', loansController.show);
 apiRouter.post('/api/loans', esureAuth ,loansController.save);
-apiRouter.post('/api/loans/:id/return', loansController.return);
+apiRouter.post('/api/loans/:id/return', esureAuth, loansController.return);
 
 module.exports = apiRouter
