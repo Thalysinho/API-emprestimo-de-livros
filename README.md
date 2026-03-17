@@ -66,10 +66,10 @@ API-EMPRESTIMO-DE-LIVROS/
 ⚙️ Instalação
 
 Clone o repositório:
-git clone https://github.com/seu-usuario/seu-repo.git
+git clone https://github.com/Thalysinho/API-emprestimo-de-livros
 
 Acesse a pasta:
-cd nome-do-projeto
+cd API-emprestimo-de-livros
 
 Instale as dependências:
 npm install
